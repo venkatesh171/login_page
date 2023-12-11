@@ -1,5 +1,9 @@
+import LoginForm from "./components/login/LoginForm";
+
 export default function App() {
   return (
-    <div>App compoment!!</div>
+    <div>
+      <LoginForm />
+    </div>
   );
 }
